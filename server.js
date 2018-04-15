@@ -2,6 +2,8 @@
 var http = require('http');
 var fs = require('fs');
 
+var port = 8008;
+
 var server = http.createServer(function (req, res) {
 	
 	fs.readFile('index.html', function(err, data) {
@@ -11,4 +13,7 @@ var server = http.createServer(function (req, res) {
 	});
 })
 
-server.listen(8008);
+server.listen(port, function() {
+	console.log('The server is running, ' +
+		'open a browser at http://localhost:%s', port);
+});
