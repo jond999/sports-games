@@ -12,16 +12,17 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-		<script>	
+		<script>
 			$(document).ready(function() {
 				$("button").hide();
 				$(".past").children("button").show();
 				$(".past").children(".game").hide();
+
+				$(".past").appendTo("body");
 			
 				$("button").click(function() {
 					$(this).next().next().toggle();
 				});
-				$(".past").appendTo("body");
 			});
 		</script>
 	</head>
@@ -45,6 +46,9 @@
 				<div class="game">
 					<span class="day">14/04/2018</span><br>
 					<span class="time">16:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Voleibol</span><br>
 					<span class="competition">Divisão Elite 2017/2018</span><br>
 					<span class="stage">Final - Jogo 1</span><br>
@@ -61,6 +65,9 @@
 				<div class="game">
 					<span class="day">14/04/2018</span><br>
 					<span class="time">18:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Andebol</span><br>
 					<span class="competition">Andebol 1 2017/2018</span><br>
 					<span class="fixture">Fase Final Grupo A - Jornada 4</span><br>
@@ -77,6 +84,9 @@
 				<div class="game">
 					<span class="day">14/04/2018</span><br>
 					<span class="time">19:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Andebol</span><br>
 					<span class="competition">Andebol 1 2017/2018</span><br>
 					<span class="fixture">Fase Final Grupo A - Jornada 4</span><br>
@@ -93,6 +103,9 @@
 				<div class="game">
 					<span class="day">15/04/2018</span><br>
 					<span class="time">14:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Futsal</span><br>
 					<span class="competition">Liga SportZone 2017/2018</span><br>
 					<span class="fixture">Jornada 24</span><br>
@@ -109,6 +122,9 @@
 				<div class="game">
 					<span class="day">15/04/2018</span><br>
 					<span class="time">18:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Futebol</span><br>
 					<span class="competition">Liga NOS 2017/2018</span><br>
 					<span class="fixture">Jornada 30</span><br>
@@ -125,6 +141,9 @@
 				<div class="game">
 					<span class="day">15/04/2018</span><br>
 					<span class="time">20:15</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Futebol</span><br>
 					<span class="competition">Liga NOS 2017/2018</span><br>
 					<span class="fixture">Jornada 30</span><br>
@@ -136,15 +155,248 @@
 			</div>
 
 			<!-- ENTRY -->
-			<div>
+			<div class="past">
 				<button type="button">Botão</button><br>
 				<div class="game">
 					<span class="day">18/04/2018</span><br>
 					<span class="time">20:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Futebol</span><br>
 					<span class="competition">Taça de Portugal Placard 2017/2018</span><br>
 					<span class="stage">Meias-Finais - 2a Mão</span><br>
 					<span class="teams">Sporting X Porto</span><br>
+					<span class="result">1 - 0</span><br>
+					<span class="extraTime">0 - 0</span><br>
+					<span class="penalties">5 - 4</span><br>
+					<span class="tv">SPORT TV 1</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">19/04/2018</span><br>
+					<span class="time">19:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Hóquei</span><br>
+					<span class="competition">Nacional I Divisão 2017/2018</span><br>
+					<span class="fixture">Jornada 20</span><br>
+					<span class="teams">Valongo X Sporting</span><br>
+					<span class="result">3 - 5</span><br>
+					<span class="tv">TVI24</span><br>
+					<span class="local">Valongo, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">20/04/2018</span><br>
+					<span class="time">17:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">UEFA Futsal Cup 2017/2018</span><br>
+					<span class="stage">Meias-Finais</span><br>
+					<span class="teams">Gyori ETO (Hungria) X Sporting (Portugal)</span><br>
+					<span class="result">1 - 6</span><br>
+					<span class="tv">Sporting TV</span><br>
+					<span class="local">Saragoça, Espanha</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">15:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Hóquei</span><br>
+					<span class="competition">Nacional I Divisão 2017/2018</span><br>
+					<span class="fixture">Jornada 21</span><br>
+					<span class="teams">Porto X Barcelos</span><br>
+					<span class="result">7 - 4</span><br>
+					<span class="tv">TVI24</span><br>
+					<span class="local">Porto, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">17:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Hóquei</span><br>
+					<span class="competition">Nacional I Divisão 2017/2018</span><br>
+					<span class="fixture">Jornada 21</span><br>
+					<span class="teams">Benfica X Paço de Arcos</span><br>
+					<span class="result">10 - 0</span><br>
+					<span class="tv">BTV</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">17:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Andebol</span><br>
+					<span class="competition">Andebol 1 2017/2018</span><br>
+					<span class="fixture">Fase Final Grupo A - Jornada 5</span><br>
+					<span class="teams">ABC X Benfica</span><br>
+					<span class="result">30 - 31</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">Braga, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">18:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Andebol</span><br>
+					<span class="competition">Andebol 1 2017/2018</span><br>
+					<span class="fixture">Fase Final Grupo A - Jornada 5</span><br>
+					<span class="teams">Porto X Sporting</span><br>
+					<span class="result">27 - 30</span><br>
+					<span class="tv">TVI24</span><br>
+					<span class="local">Porto, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">18:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Voleibol</span><br>
+					<span class="competition">Divisão Elite 2017/2018</span><br>
+					<span class="stage">Final - Jogo 2</span><br>
+					<span class="teams">Sporting X Benfica</span><br>
+					<span class="result">3 - 0</span><br>
+					<span class="tv">Sporting TV</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">21/04/2018</span><br>
+					<span class="time">20:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futebol</span><br>
+					<span class="competition">Liga NOS 2017/2018</span><br>
+					<span class="fixture">Jornada 31</span><br>
+					<span class="teams">Estoril X Benfica</span><br>
+					<span class="result">1 - 2</span><br>
+					<span class="tv">SPORT TV 1</span><br>
+					<span class="local">Cascais, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">22/04/2018</span><br>
+					<span class="time">15:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Voleibol</span><br>
+					<span class="competition">Divisão Elite 2017/2018</span><br>
+					<span class="stage">Final - Jogo 3</span><br>
+					<span class="teams">Sporting X Benfica</span><br>
+					<span class="result">3 - 2</span><br>
+					<span class="tv">Sporting TV</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div class="past">
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">22/04/2018</span><br>
+					<span class="time">19:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">UEFA Futsal Cup 2017/2018</span><br>
+					<span class="stage">Final</span><br>
+					<span class="teams">Sporting (Portugal) X Inter (Espanha)</span><br>
+					<span class="result">2 - 5</span><br>
+					<span class="tv">Sporting TV</span><br>
+					<span class="local">Saragoça, Espanha</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">22/04/2018</span><br>
+					<span class="time">20:15</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futebol</span><br>
+					<span class="competition">Liga NOS 2017/2018</span><br>
+					<span class="fixture">Jornada 31</span><br>
+					<span class="teams">Sporting X Boavista</span><br>
+					<span class="result">1 - 0</span><br>
+					<span class="tv">SPORT TV 1</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">23/04/2018</span><br>
+					<span class="time">20:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futebol</span><br>
+					<span class="competition">Liga NOS 2017/2018</span><br>
+					<span class="fixture">Jornada 31</span><br>
+					<span class="teams">Porto X Setúbal</span><br>
 					<span class="result">0 - 0</span><br>
 					<span class="tv">SPORT TV 1</span><br>
 					<span class="local">Lisboa, Portugal</span>
@@ -155,15 +407,37 @@
 			<div>
 				<button type="button">Botão</button><br>
 				<div class="game">
-					<span class="day">18/04/2018</span><br>
-					<span class="time">21:30</span><br>
+					<span class="day">25/04/2018</span><br>
+					<span class="time">16:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">Liga SportZone 2017/2018</span><br>
+					<span class="fixture">Jornada 25</span><br>
+					<span class="teams">Benfica X Desportivo das Aves</span><br>
+					<span class="result">0 - 0</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">28/04/2018</span><br>
+					<span class="time">18:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Hóquei</span><br>
 					<span class="competition">Nacional I Divisão 2017/2018</span><br>
-					<span class="fixture">Jornada 20</span><br>
-					<span class="teams">Valongo X Sporting</span><br>
+					<span class="fixture">Jornada 21</span><br>
+					<span class="teams">Sporting X Braga</span><br>
 					<span class="result">0 - 0</span><br>
-					<span class="tv">?</span><br>
-					<span class="local">Saragoça, Espanha</span>
+					<span class="tv">Sporting TV</span><br>
+					<span class="local">Lisboa, Portugal</span>
 				</div>
 			</div>
 
@@ -171,79 +445,56 @@
 			<div>
 				<button type="button">Botão</button><br>
 				<div class="game">
-					<span class="day">20/04/2018</span><br>
-					<span class="time">17:00</span><br>
+					<span class="day">29/04/2018</span><br>
+					<span class="time">14:30</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Futsal</span><br>
-					<span class="competition">UEFA Futsal Cup 2017/2018</span><br>
+					<span class="competition">Liga SportZone 2017/2018</span><br>
+					<span class="fixture">Jornada 25</span><br>
+					<span class="teams">Sporting X Belenenses</span><br>
+					<span class="result">0 - 0</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">Lisboa, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">10/05/2018</span><br>
+					<span class="time">16:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">Taça de Portugal 2017/2018</span><br>
+					<span class="stage">Quartos-de-Final</span><br>
+					<span class="teams">Fundão X Sporting</span><br>
+					<span class="result">0 - 0</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">Fundão, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">12/05/2018</span><br>
+					<span class="time">16:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">Taça de Portugal 2017/2018</span><br>
 					<span class="stage">Meias-Finais</span><br>
-					<span class="teams">Gyori ETO (Hungria) X Sporting (Portugal)</span><br>
+					<span class="teams">? X ?</span><br>
 					<span class="result">0 - 0</span><br>
 					<span class="tv">?</span><br>
-					<span class="local">Saragoça, Espanha</span>
-				</div>
-			</div>
-
-			<!-- ENTRY -->
-			<div>
-				<button type="button">Botão</button><br>
-				<div class="game">
-					<span class="day">21/04/2018</span><br>
-					<span class="time">17:00</span><br>
-					<span class="sport">Andebol</span><br>
-					<span class="competition">Andebol 1 2017/2018</span><br>
-					<span class="fixture">Fase Final Grupo A - Jornada 5</span><br>
-					<span class="teams">ABC X Benfica</span><br>
-					<span class="result">0 - 0</span><br>
-					<span class="tv">?</span><br>
-					<span class="local">Braga, Portugal</span>
-				</div>
-			</div>
-
-			<!-- ENTRY -->
-			<div>
-				<button type="button">Botão</button><br>
-				<div class="game">
-					<span class="day">21/04/2018</span><br>
-					<span class="time">18:00</span><br>
-					<span class="sport">Andebol</span><br>
-					<span class="competition">Andebol 1 2017/2018</span><br>
-					<span class="fixture">Fase Final Grupo A - Jornada 5</span><br>
-					<span class="teams">Porto X Sporting</span><br>
-					<span class="result">0 - 0</span><br>
-					<span class="tv">?</span><br>
-					<span class="local">Porto, Portugal</span>
-				</div>
-			</div>
-
-			<!-- ENTRY -->
-			<div>
-				<button type="button">Botão</button><br>
-				<div class="game">
-					<span class="day">21/04/2018</span><br>
-					<span class="time">18:00</span><br>
-					<span class="sport">Voleibol</span><br>
-					<span class="competition">Divisão Elite 2017/2018</span><br>
-					<span class="stage">Final - Jogo 2</span><br>
-					<span class="teams">Sporting X Benfica</span><br>
-					<span class="result">0 - 0</span><br>
-					<span class="tv">?</span><br>
-					<span class="local">Lisboa, Portugal</span>
-				</div>
-			</div>
-
-			<!-- ENTRY -->
-			<div>
-				<button type="button">Botão</button><br>
-				<div class="game">
-					<span class="day">22/04/2018</span><br>
-					<span class="time">15:00</span><br>
-					<span class="sport">Voleibol</span><br>
-					<span class="competition">Divisão Elite 2017/2018</span><br>
-					<span class="stage">Final - Jogo 3</span><br>
-					<span class="teams">Sporting X Benfica</span><br>
-					<span class="result">0 - 0</span><br>
-					<span class="tv">?</span><br>
-					<span class="local">Lisboa, Portugal</span>
+					<span class="local">?, Portugal</span>
 				</div>
 			</div>
 
@@ -253,6 +504,9 @@
 				<div class="game">
 					<span class="day">12/05/2018</span><br>
 					<span class="time">?</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
 					<span class="sport">Hóquei</span><br>
 					<span class="competition">Liga Europeia 2017/2018</span><br>
 					<span class="stage">Meias-Finais</span><br>
@@ -260,6 +514,46 @@
 					<span class="result">0 - 0</span><br>
 					<span class="tv">?</span><br>
 					<span class="local">Porto, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">13/05/2018</span><br>
+					<span class="time">16:00</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futsal</span><br>
+					<span class="competition">Taça de Portugal 2017/2018</span><br>
+					<span class="stage">Final</span><br>
+					<span class="teams">? X ?</span><br>
+					<span class="result">0 - 0</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">?, Portugal</span>
+				</div>
+			</div>
+
+			<!-- ENTRY -->
+			<div>
+				<button type="button">Botão</button><br>
+				<div class="game">
+					<span class="day">20/05/2018</span><br>
+					<span class="time">17:15</span><br>
+<!--
+					<span class="tte"></span><br>
+-->
+					<span class="sport">Futebol</span><br>
+					<span class="competition">Taça de Portugal Placard 2017/2018</span><br>
+					<span class="stage">Final</span><br>
+					<span class="teams">Desportivo das Aves X Sporting</span><br>
+					<span class="result">0 - 0</span><br>
+					<span class="extraTime">0 - 0</span><br>
+					<span class="penalties">0 - 0</span><br>
+					<span class="tv">?</span><br>
+					<span class="local">Oeiras, Portugal</span>
 				</div>
 			</div>
 
